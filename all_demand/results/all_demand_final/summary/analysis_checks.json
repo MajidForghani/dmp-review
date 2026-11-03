@@ -1,0 +1,16 @@
+{
+  "timing_rows": 444,
+  "cases": 37,
+  "algorithms": [
+    "repeated_fb_2017",
+    "yeh_2018",
+    "yeh_zuo_2019",
+    "bai_2021"
+  ],
+  "expected_case_algorithm_pairs": 148,
+  "case_algorithm_rows": 148,
+  "inconsistent_repetition_digests": 0,
+  "fully_unsolved_cases": 0,
+  "inconsistent_case_outputs": 0,
+  "inconsistent_case_digests": 0
+}

@@ -1,0 +1,22 @@
+{
+  "package_version": "1.1.0",
+  "manifest": "study/all_demand_final/manifest.json",
+  "manifest_sha256": "fd8e539234dd7d335b19713a731ed54a1052dd2e16502da704d0a28faf89176e",
+  "algorithms": [
+    "repeated_fb_2017",
+    "yeh_2018",
+    "yeh_zuo_2019",
+    "bai_2021"
+  ],
+  "repetitions": 3,
+  "timeout_seconds": 1200.0,
+  "memory_mode": "once",
+  "memory_timeout_seconds": 1200.0,
+  "max_paths": 1000000,
+  "timing_output": "results/all_demand_final/timing_raw.csv",
+  "memory_output": "results/all_demand_final/timing_raw_memory.csv",
+  "started_utc": "2026-10-30T16:53:21.479566+00:00",
+  "finished_utc": "2026-10-30T19:51:27.846484+00:00",
+  "original_run_manifest_sha256": "26aaa778d630282019226aec2cbc9aac3a8db4270822207e2b5f18358525562e",
+  "public_release_note": "Only machine-specific path fields were normalized; numerical observations and digests were not changed."
+}

@@ -1,0 +1,410 @@
+{
+  "schema": 1,
+  "study": "all-demand d-MP final comparison",
+  "task": "explicitly enumerate every d-MP for every positive feasible demand",
+  "selection_rule": "same underlying networks as fixed-d study, with demand-specific duplicates collapsed",
+  "blocks": {
+    "published": 5,
+    "held_out_random": 20,
+    "sndlib_derived": 12
+  },
+  "random_design": {
+    "nodes": [
+      7,
+      8
+    ],
+    "arcs": "2*n",
+    "seeds": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "families": [
+      "dag",
+      "cyclic"
+    ],
+    "capacity_range": [
+      3,
+      7
+    ]
+  },
+  "sndlib_design": {
+    "topologies": [
+      "abilene",
+      "polska",
+      "nobel-us"
+    ],
+    "capacity_seeds": [
+      40,
+      41
+    ],
+    "capacity_range": [
+      1,
+      2
+    ],
+    "transformation": "bidirected",
+    "terminal_rule": "lexicographically first diameter pair and pair closest to median hop distance"
+  },
+  "instances": [
+    {
+      "path": "study/all_demand_final/instances/published_lin_1995_example1.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "lin_1995_example1"
+    },
+    {
+      "path": "study/all_demand_final/instances/published_niu_2020_fig1.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "niu_2020_fig1"
+    },
+    {
+      "path": "study/all_demand_final/instances/published_cyclic_small.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "cyclic_small"
+    },
+    {
+      "path": "study/all_demand_final/instances/published_huang_2020_fig3.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "huang_2020_fig3"
+    },
+    {
+      "path": "study/all_demand_final/instances/published_wu_2025_fig2.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "wu_2025_fig2"
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n7_m14_c3-7_s20.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n7_m14_c3-7_s20.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n7_m14_c3-7_s21.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n7_m14_c3-7_s21.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n7_m14_c3-7_s22.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n7_m14_c3-7_s22.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n7_m14_c3-7_s23.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n7_m14_c3-7_s23.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n7_m14_c3-7_s24.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n7_m14_c3-7_s24.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s20.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n8_m16_c3-7_s20.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s21.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n8_m16_c3-7_s21.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s22.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n8_m16_c3-7_s22.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s23.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n8_m16_c3-7_s23.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s24.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/random_cyclic_n8_m16_c3-7_s24.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_polska_bidirected_n03_n04_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_polska_bidirected_n03_n04_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_polska_bidirected_n01_n02_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_polska_bidirected_n01_n02_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s40.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2
+    },
+    {
+      "path": "study/all_demand_final/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s41.json",
+      "benchmark_block": "sndlib_derived",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2
+    }
+  ]
+}

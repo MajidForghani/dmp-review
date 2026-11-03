@@ -1,0 +1,152 @@
+{
+  "name": "sndlib_abilene_bidirected_n01_n05_c1-2_s41",
+  "n": 12,
+  "source": 0,
+  "sink": 11,
+  "demand": 0,
+  "edges": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      11,
+      1
+    ],
+    [
+      1,
+      4,
+      2
+    ],
+    [
+      4,
+      1,
+      2
+    ],
+    [
+      1,
+      10,
+      2
+    ],
+    [
+      10,
+      1,
+      2
+    ],
+    [
+      2,
+      4,
+      1
+    ],
+    [
+      4,
+      2,
+      1
+    ],
+    [
+      2,
+      7,
+      1
+    ],
+    [
+      7,
+      2,
+      2
+    ],
+    [
+      3,
+      5,
+      1
+    ],
+    [
+      5,
+      3,
+      1
+    ],
+    [
+      3,
+      8,
+      2
+    ],
+    [
+      8,
+      3,
+      1
+    ],
+    [
+      3,
+      9,
+      2
+    ],
+    [
+      9,
+      3,
+      1
+    ],
+    [
+      5,
+      11,
+      1
+    ],
+    [
+      6,
+      11,
+      2
+    ],
+    [
+      4,
+      5,
+      1
+    ],
+    [
+      5,
+      4,
+      1
+    ],
+    [
+      6,
+      8,
+      2
+    ],
+    [
+      8,
+      6,
+      2
+    ],
+    [
+      7,
+      10,
+      1
+    ],
+    [
+      10,
+      7,
+      1
+    ],
+    [
+      8,
+      9,
+      1
+    ],
+    [
+      9,
+      8,
+      1
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "sndlib_derived",
+    "family": "sndlib_derived",
+    "topology": "abilene",
+    "terminal_pair_label": "middle_distance",
+    "source_terminal": "n01",
+    "sink_terminal": "n05",
+    "undirected_hop_distance": 2,
+    "transformation": "bidirected",
+    "capacity_seed": 41,
+    "capacity_low": 1,
+    "capacity_high": 2
+  }
+}

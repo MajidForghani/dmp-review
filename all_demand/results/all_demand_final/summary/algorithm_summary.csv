@@ -1,0 +1,5 @@
+algorithm,algorithm_label,cases,cases_solved,cases_all_repetitions,cases_with_timeout,cases_failed_all,correctness_role,wins,median_time_seconds,mean_time_seconds_completed,max_time_seconds_completed,median_peak_memory_bytes,max_peak_memory_bytes,median_output_count
+bai_2021,Bai et al. (2021),37,37,37,0,0,primary_exact,35,0.0197942002268973,0.1586200705905621,3.0717845084291184,1123996.0,154161989.0,454.0
+yeh_2018,Yeh (2018),37,37,37,0,0,primary_exact,2,0.0673051004996523,1.5824517265868348,35.44970859741443,1341310.0,161027522.0,454.0
+repeated_fb_2017,Repeated F-B (2017),37,37,37,0,0,primary_exact,0,0.0695347000728361,0.9612958972956639,13.8863841999555,1214338.0,143452348.0,454.0
+yeh_zuo_2019,"Yeh--Zuo (2019), literal",37,36,36,1,1,literal_diagnostic,0,0.08737565028422975,10.677987249886225,249.6464385006548,368617.5,21439076.0,208.0

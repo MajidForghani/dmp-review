@@ -1,0 +1,17 @@
+family,benchmark_block,algorithm,cases_solved,median_time_seconds,median_output_count
+cyclic,held_out_random,bai_2021,10,0.0166259003308368,1402.5
+cyclic,held_out_random,repeated_fb_2017,10,0.06892800002242436,1402.5
+cyclic,held_out_random,yeh_2018,10,0.08278650040301724,1402.5
+cyclic,held_out_random,yeh_zuo_2019,10,0.2206437497006845,903.0
+dag,held_out_random,bai_2021,10,0.11347095081146105,13233.5
+dag,held_out_random,repeated_fb_2017,10,0.5018589500177768,13233.5
+dag,held_out_random,yeh_2018,10,0.9187541987848817,13233.5
+dag,held_out_random,yeh_zuo_2019,9,5.8670680990908295,5916.0
+published_example,published_or_validation_example,bai_2021,5,0.0002019999519689,14.0
+published_example,published_or_validation_example,repeated_fb_2017,5,0.0007486000104108,14.0
+published_example,published_or_validation_example,yeh_2018,5,0.0002768999693216,14.0
+published_example,published_or_validation_example,yeh_zuo_2019,5,0.0003899999865097,14.0
+sndlib_derived,sndlib_derived,bai_2021,12,0.0084600499976659,169.5
+sndlib_derived,sndlib_derived,repeated_fb_2017,12,0.04499889996077395,169.5
+sndlib_derived,sndlib_derived,yeh_2018,12,0.01289654998981855,169.5
+sndlib_derived,sndlib_derived,yeh_zuo_2019,12,0.0241085999150527,120.5

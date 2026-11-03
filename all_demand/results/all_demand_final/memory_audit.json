@@ -1,0 +1,13 @@
+{
+  "memory_rows": 148,
+  "expected_memory_pairs": 147,
+  "missing_pairs": [],
+  "unsuccessful_rows": [
+    {
+      "instance_path": "study/all_demand_final/instances/random_dag_n8_m16_c3-7_s22.json",
+      "algorithm": "yeh_zuo_2019",
+      "status": "skipped_no_completed_timing"
+    }
+  ],
+  "disagreements": []
+}
