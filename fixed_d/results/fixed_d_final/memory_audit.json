@@ -1,0 +1,13 @@
+{
+  "memory_rows": 470,
+  "expected_memory_pairs": 470,
+  "missing_pairs": [],
+  "unsuccessful_rows": [
+    {
+      "instance_path": "study/final_base/instances/random_dag_n8_m16_c3-7_s22_d13.json",
+      "algorithm": "lin_1995",
+      "status": "timeout"
+    }
+  ],
+  "disagreements": []
+}

@@ -1,0 +1,23 @@
+{
+  "package_version": "1.2.1",
+  "manifest": "study/fixed_d_complete/manifest.json",
+  "manifest_sha256": "41173a94ff9654b01ad5ce0a57d3ca4462625d716cc3551a5ed595854d70eaf4",
+  "algorithms": [
+    "lin_1995",
+    "forghani_bonani_2017",
+    "huang_2020",
+    "niu_2020",
+    "wu_2025"
+  ],
+  "repetitions": 3,
+  "timeout_seconds": 600.0,
+  "memory_mode": "once",
+  "memory_timeout_seconds": 600.0,
+  "max_paths": 1000000,
+  "timing_output": "results/fixed_d_final/timing_raw.csv",
+  "memory_output": "results/fixed_d_final/timing_raw_memory.csv",
+  "started_utc": "2026-10-30T08:30:35.798162+00:00",
+  "finished_utc": "2026-10-30T10:32:50.735786+00:00",
+  "original_run_manifest_sha256": "be6961e609a0c94d19cd4ffd62586f33d8eb6d6d1cf921f639826f1cab0847e7",
+  "public_release_note": "Only machine-specific path fields were normalized; numerical observations and digests were not changed."
+}

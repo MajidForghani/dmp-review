@@ -1,0 +1,17 @@
+{
+  "timing_rows": 1410,
+  "cases": 94,
+  "algorithms": [
+    "lin_1995",
+    "forghani_bonani_2017",
+    "huang_2020",
+    "niu_2020",
+    "wu_2025"
+  ],
+  "expected_case_algorithm_pairs": 470,
+  "case_algorithm_rows": 470,
+  "inconsistent_repetition_digests": 0,
+  "fully_unsolved_cases": 0,
+  "inconsistent_case_outputs": 0,
+  "inconsistent_case_digests": 0
+}
