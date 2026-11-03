@@ -1,0 +1,107 @@
+{
+  "name": "random_dag_n8_m16_c3-7_s22",
+  "n": 8,
+  "source": 0,
+  "sink": 7,
+  "demand": 4,
+  "edges": [
+    [
+      0,
+      4,
+      7
+    ],
+    [
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      7,
+      5
+    ],
+    [
+      1,
+      6,
+      4
+    ],
+    [
+      2,
+      7,
+      6
+    ],
+    [
+      3,
+      1,
+      5
+    ],
+    [
+      3,
+      7,
+      7
+    ],
+    [
+      4,
+      2,
+      4
+    ],
+    [
+      4,
+      3,
+      5
+    ],
+    [
+      4,
+      5,
+      5
+    ],
+    [
+      4,
+      6,
+      4
+    ],
+    [
+      5,
+      1,
+      6
+    ],
+    [
+      5,
+      3,
+      3
+    ],
+    [
+      5,
+      6,
+      5
+    ],
+    [
+      5,
+      7,
+      7
+    ],
+    [
+      6,
+      2,
+      3
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "held_out_random",
+    "family": "dag",
+    "seed": 22,
+    "capacity_low": 3,
+    "capacity_high": 7,
+    "demand": 4,
+    "target_fractions": [
+      0.25
+    ],
+    "demand_labels": [
+      "low"
+    ],
+    "maximum_flow": 17,
+    "actual_fraction": 0.23529411764705882,
+    "target_fraction": 0.25,
+    "demand_label": "low"
+  }
+}

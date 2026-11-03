@@ -1,0 +1,185 @@
+{
+  "name": "sndlib_polska_bidirected_n03_n04_c1-2_s40",
+  "n": 12,
+  "source": 0,
+  "sink": 11,
+  "demand": 2,
+  "edges": [
+    [
+      1,
+      9,
+      2
+    ],
+    [
+      9,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      4,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      6,
+      2
+    ],
+    [
+      6,
+      2,
+      1
+    ],
+    [
+      2,
+      9,
+      1
+    ],
+    [
+      9,
+      2,
+      1
+    ],
+    [
+      0,
+      8,
+      1
+    ],
+    [
+      3,
+      11,
+      1
+    ],
+    [
+      5,
+      11,
+      1
+    ],
+    [
+      10,
+      11,
+      2
+    ],
+    [
+      3,
+      7,
+      1
+    ],
+    [
+      7,
+      3,
+      1
+    ],
+    [
+      3,
+      9,
+      2
+    ],
+    [
+      9,
+      3,
+      1
+    ],
+    [
+      4,
+      7,
+      2
+    ],
+    [
+      7,
+      4,
+      2
+    ],
+    [
+      4,
+      9,
+      1
+    ],
+    [
+      9,
+      4,
+      1
+    ],
+    [
+      5,
+      9,
+      2
+    ],
+    [
+      9,
+      5,
+      1
+    ],
+    [
+      5,
+      10,
+      2
+    ],
+    [
+      10,
+      5,
+      2
+    ],
+    [
+      6,
+      8,
+      2
+    ],
+    [
+      8,
+      6,
+      1
+    ],
+    [
+      6,
+      10,
+      1
+    ],
+    [
+      10,
+      6,
+      2
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "sndlib_main",
+    "family": "sndlib_derived",
+    "topology": "polska",
+    "terminal_pair_label": "diameter",
+    "source_terminal": "n03",
+    "sink_terminal": "n04",
+    "undirected_hop_distance": 4,
+    "transformation": "bidirected",
+    "capacity_seed": 40,
+    "capacity_low": 1,
+    "capacity_high": 2,
+    "demand": 2,
+    "target_fractions": [
+      0.5,
+      0.75
+    ],
+    "demand_labels": [
+      "middle",
+      "high"
+    ],
+    "maximum_flow": 3,
+    "actual_fraction": 0.6666666666666666,
+    "target_fraction": 0.75,
+    "demand_label": "middle+high"
+  }
+}

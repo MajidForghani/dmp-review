@@ -1,0 +1,1924 @@
+{
+  "schema": 2,
+  "study": "combined fixed-d final corpus",
+  "source_manifests": [
+    "study/final_base/manifest.json",
+    "study/sndlib_main_bidirected_c1-2/manifest.json"
+  ],
+  "instances": [
+    {
+      "path": "study/final_base/instances/published_lin_1995_example1_d2.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "lin_1995_example1",
+      "demand": 2
+    },
+    {
+      "path": "study/final_base/instances/published_niu_2020_fig1_d3.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "niu_2020_fig1",
+      "demand": 3
+    },
+    {
+      "path": "study/final_base/instances/published_cyclic_small_d3.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "cyclic_small",
+      "demand": 3
+    },
+    {
+      "path": "study/final_base/instances/published_huang_2020_fig3_d4.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "huang_2020_fig3",
+      "demand": 4
+    },
+    {
+      "path": "study/final_base/instances/published_wu_2025_fig2_d3.json",
+      "benchmark_block": "published_or_validation_example",
+      "family": "published_example",
+      "source_fixture": "wu_2025_fig2",
+      "demand": 3
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s20_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.2,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s20_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s20_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.8,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s20_d1.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 5,
+      "actual_fraction": 0.2,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s20_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 5,
+      "actual_fraction": 0.4,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s20_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 5,
+      "actual_fraction": 0.8,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s21_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s21_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s21_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s21_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 6,
+      "actual_fraction": 0.3333333333333333,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s21_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 6,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s21_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 6,
+      "actual_fraction": 0.6666666666666666,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s22_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s22_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s22_d9.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 9,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s22_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.2857142857142857,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s22_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.5714285714285714,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s22_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.7142857142857143,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s23_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.26666666666666666,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s23_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.5333333333333333,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s23_d11.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 11,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.7333333333333333,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s23_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.2727272727272727,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s23_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.5454545454545454,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s23_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.7272727272727273,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s24_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.2,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s24_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n7_m14_c3-7_s24_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.8,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s24_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s24_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n7_m14_c3-7_s24_d9.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 9,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s20_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.2,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s20_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s20_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 10,
+      "actual_fraction": 0.8,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s20_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.2857142857142857,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s20_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.5714285714285714,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s20_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 20,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.7142857142857143,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s21_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s21_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s21_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s21_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.2857142857142857,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s21_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.5714285714285714,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s21_d5.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 21,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 5,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 7,
+      "actual_fraction": 0.7142857142857143,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s22_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 17,
+      "actual_fraction": 0.23529411764705882,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s22_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 17,
+      "actual_fraction": 0.47058823529411764,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s22_d13.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 13,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 17,
+      "actual_fraction": 0.7647058823529411,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s22_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.2727272727272727,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s22_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.5454545454545454,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s22_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 22,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 11,
+      "actual_fraction": 0.7272727272727273,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s23_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.26666666666666666,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s23_d8.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 8,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.5333333333333333,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s23_d11.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 11,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 15,
+      "actual_fraction": 0.7333333333333333,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s23_d1.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s23_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s23_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 23,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s24_d2.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 2,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s24_d4.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 4,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_dag_n8_m16_c3-7_s24_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "dag",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 8,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s24_d3.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 3,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s24_d6.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 6,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/final_base/instances/random_cyclic_n8_m16_c3-7_s24_d9.json",
+      "benchmark_block": "held_out_random",
+      "family": "cyclic",
+      "seed": 24,
+      "capacity_low": 3,
+      "capacity_high": 7,
+      "demand": 9,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 12,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25,
+        0.5
+      ],
+      "demand_labels": [
+        "low",
+        "middle"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "low+middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 1.0,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25,
+        0.5
+      ],
+      "demand_labels": [
+        "low",
+        "middle"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "low+middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n11_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n11",
+      "undirected_hop_distance": 5,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 1.0,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25,
+        0.5
+      ],
+      "demand_labels": [
+        "low",
+        "middle"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "low+middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 1.0,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25,
+        0.5
+      ],
+      "demand_labels": [
+        "low",
+        "middle"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "low+middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_abilene_bidirected_n01_n05_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "abilene",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n05",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 2,
+      "actual_fraction": 1.0,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n03_n04_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.3333333333333333,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n03_n04_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5,
+        0.75
+      ],
+      "demand_labels": [
+        "middle",
+        "high"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.6666666666666666,
+      "target_fraction": 0.75,
+      "demand_label": "middle+high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n03_n04_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.3333333333333333,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n03_n04_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n03",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 4,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5,
+        0.75
+      ],
+      "demand_labels": [
+        "middle",
+        "high"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.6666666666666666,
+      "target_fraction": 0.75,
+      "demand_label": "middle+high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s40_d3.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_polska_bidirected_n01_n02_c1-2_s41_d3.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "polska",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n02",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s40_d3.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n04_c1-2_s41_d3.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "diameter",
+      "source_terminal": "n01",
+      "sink_terminal": "n04",
+      "undirected_hop_distance": 3,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s40_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.25,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s40_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5
+      ],
+      "demand_labels": [
+        "middle"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.5,
+      "target_fraction": 0.5,
+      "demand_label": "middle"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s40_d3.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 40,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 3,
+      "target_fractions": [
+        0.75
+      ],
+      "demand_labels": [
+        "high"
+      ],
+      "maximum_flow": 4,
+      "actual_fraction": 0.75,
+      "target_fraction": 0.75,
+      "demand_label": "high"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s41_d1.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 1,
+      "target_fractions": [
+        0.25
+      ],
+      "demand_labels": [
+        "low"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.3333333333333333,
+      "target_fraction": 0.25,
+      "demand_label": "low"
+    },
+    {
+      "path": "study/sndlib_main_bidirected_c1-2/instances/sndlib_nobel-us_bidirected_n01_n03_c1-2_s41_d2.json",
+      "benchmark_block": "sndlib_main",
+      "family": "sndlib_derived",
+      "topology": "nobel-us",
+      "terminal_pair_label": "middle_distance",
+      "source_terminal": "n01",
+      "sink_terminal": "n03",
+      "undirected_hop_distance": 2,
+      "transformation": "bidirected",
+      "capacity_seed": 41,
+      "capacity_low": 1,
+      "capacity_high": 2,
+      "demand": 2,
+      "target_fractions": [
+        0.5,
+        0.75
+      ],
+      "demand_labels": [
+        "middle",
+        "high"
+      ],
+      "maximum_flow": 3,
+      "actual_fraction": 0.6666666666666666,
+      "target_fraction": 0.75,
+      "demand_label": "middle+high"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "name": "sndlib_nobel-us_bidirected_n01_n03_c1-2_s41",
+  "n": 14,
+  "source": 0,
+  "sink": 13,
+  "demand": 1,
+  "edges": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      11,
+      1
+    ],
+    [
+      0,
+      12,
+      2
+    ],
+    [
+      1,
+      10,
+      2
+    ],
+    [
+      10,
+      1,
+      2
+    ],
+    [
+      1,
+      12,
+      1
+    ],
+    [
+      12,
+      1,
+      1
+    ],
+    [
+      6,
+      13,
+      2
+    ],
+    [
+      10,
+      13,
+      1
+    ],
+    [
+      11,
+      13,
+      1
+    ],
+    [
+      2,
+      7,
+      2
+    ],
+    [
+      7,
+      2,
+      1
+    ],
+    [
+      2,
+      8,
+      1
+    ],
+    [
+      8,
+      2,
+      1
+    ],
+    [
+      2,
+      10,
+      2
+    ],
+    [
+      10,
+      2,
+      2
+    ],
+    [
+      3,
+      9,
+      1
+    ],
+    [
+      9,
+      3,
+      1
+    ],
+    [
+      3,
+      10,
+      2
+    ],
+    [
+      10,
+      3,
+      2
+    ],
+    [
+      4,
+      6,
+      1
+    ],
+    [
+      6,
+      4,
+      1
+    ],
+    [
+      4,
+      9,
+      1
+    ],
+    [
+      9,
+      4,
+      1
+    ],
+    [
+      4,
+      12,
+      1
+    ],
+    [
+      12,
+      4,
+      1
+    ],
+    [
+      5,
+      7,
+      1
+    ],
+    [
+      7,
+      5,
+      2
+    ],
+    [
+      5,
+      8,
+      2
+    ],
+    [
+      8,
+      5,
+      1
+    ],
+    [
+      5,
+      11,
+      1
+    ],
+    [
+      11,
+      5,
+      1
+    ],
+    [
+      7,
+      9,
+      2
+    ],
+    [
+      9,
+      7,
+      1
+    ],
+    [
+      8,
+      9,
+      2
+    ],
+    [
+      9,
+      8,
+      2
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "sndlib_main",
+    "family": "sndlib_derived",
+    "topology": "nobel-us",
+    "terminal_pair_label": "middle_distance",
+    "source_terminal": "n01",
+    "sink_terminal": "n03",
+    "undirected_hop_distance": 2,
+    "transformation": "bidirected",
+    "capacity_seed": 41,
+    "capacity_low": 1,
+    "capacity_high": 2,
+    "demand": 1,
+    "target_fractions": [
+      0.25
+    ],
+    "demand_labels": [
+      "low"
+    ],
+    "maximum_flow": 3,
+    "actual_fraction": 0.3333333333333333,
+    "target_fraction": 0.25,
+    "demand_label": "low"
+  }
+}

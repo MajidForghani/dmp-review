@@ -1,0 +1,55 @@
+{
+  "name": "cyclic_small",
+  "n": 5,
+  "source": 0,
+  "sink": 4,
+  "demand": 3,
+  "edges": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      3,
+      4,
+      3
+    ],
+    [
+      2,
+      4,
+      1
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "published_or_validation_example",
+    "family": "published_example",
+    "source_fixture": "cyclic_small",
+    "demand": 3
+  }
+}

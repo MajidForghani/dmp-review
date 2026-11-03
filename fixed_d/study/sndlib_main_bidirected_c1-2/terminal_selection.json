@@ -1,0 +1,44 @@
+[
+  {
+    "topology": "abilene",
+    "terminal_pair_label": "diameter",
+    "source": "n01",
+    "sink": "n11",
+    "undirected_hop_distance": 5
+  },
+  {
+    "topology": "abilene",
+    "terminal_pair_label": "middle_distance",
+    "source": "n01",
+    "sink": "n05",
+    "undirected_hop_distance": 2
+  },
+  {
+    "topology": "polska",
+    "terminal_pair_label": "diameter",
+    "source": "n03",
+    "sink": "n04",
+    "undirected_hop_distance": 4
+  },
+  {
+    "topology": "polska",
+    "terminal_pair_label": "middle_distance",
+    "source": "n01",
+    "sink": "n02",
+    "undirected_hop_distance": 2
+  },
+  {
+    "topology": "nobel-us",
+    "terminal_pair_label": "diameter",
+    "source": "n01",
+    "sink": "n04",
+    "undirected_hop_distance": 3
+  },
+  {
+    "topology": "nobel-us",
+    "terminal_pair_label": "middle_distance",
+    "source": "n01",
+    "sink": "n03",
+    "undirected_hop_distance": 2
+  }
+]

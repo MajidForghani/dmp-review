@@ -1,0 +1,97 @@
+{
+  "name": "random_cyclic_n7_m14_c3-7_s20",
+  "n": 7,
+  "source": 0,
+  "sink": 6,
+  "demand": 2,
+  "edges": [
+    [
+      0,
+      2,
+      7
+    ],
+    [
+      0,
+      5,
+      4
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      1,
+      5,
+      3
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      6,
+      5
+    ],
+    [
+      3,
+      1,
+      5
+    ],
+    [
+      3,
+      2,
+      5
+    ],
+    [
+      3,
+      5,
+      5
+    ],
+    [
+      4,
+      1,
+      4
+    ],
+    [
+      4,
+      3,
+      7
+    ],
+    [
+      5,
+      1,
+      3
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "held_out_random",
+    "family": "cyclic",
+    "seed": 20,
+    "capacity_low": 3,
+    "capacity_high": 7,
+    "demand": 2,
+    "target_fractions": [
+      0.5
+    ],
+    "demand_labels": [
+      "middle"
+    ],
+    "maximum_flow": 5,
+    "actual_fraction": 0.4,
+    "target_fraction": 0.5,
+    "demand_label": "middle"
+  }
+}

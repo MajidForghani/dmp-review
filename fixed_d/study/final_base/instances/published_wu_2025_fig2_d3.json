@@ -1,0 +1,45 @@
+{
+  "name": "wu_2025_fig2",
+  "n": 4,
+  "source": 0,
+  "sink": 3,
+  "demand": 3,
+  "edges": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      2
+    ]
+  ],
+  "metadata": {
+    "benchmark_block": "published_or_validation_example",
+    "family": "published_example",
+    "source_fixture": "wu_2025_fig2",
+    "demand": 3
+  }
+}
