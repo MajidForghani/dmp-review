@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated review and this repository release."
+title: "Reproducible experiments for exact d-minimal-path enumeration"
+type: software
+version: 1.0.0
+date-released: 2026-10-30
+authors:
+  - family-names: "Forghani-elahabad"
+    given-names: "Majid"
+  - family-names: "Zuo"
+    given-names: "Mingjian"
+  - family-names: "Bai"
+    given-names: "Guanghan"
+keywords:
+  - d-minimal path
+  - multistate flow network
+  - exact enumeration
+  - network reliability
+  - reproducible benchmarking
+
