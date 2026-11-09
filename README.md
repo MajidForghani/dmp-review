@@ -25,6 +25,11 @@ whenever its output is incomplete.
 ## Repository layout
 
 ```text
+literature_search/
+  dMP_literature_search_audit_final.zip
+                              complete literature-search audit package
+  dMP_literature_search_screening_audit.xlsx
+                              record-level screening and eligibility decisions
 fixed_d/
   dmpbench/                 algorithm implementations and common model
   study/                    frozen 94-case corpus and source blocks
