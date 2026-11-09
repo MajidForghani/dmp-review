@@ -128,7 +128,5 @@ under each study's `sndlib_native/` directory.
 Please cite the associated review and this repository release. Citation metadata
 is supplied in `CITATION.cff`.
 
-No reuse license has been selected in this archive. Before public release, the
-authors may add their preferred license; a common arrangement is an open-source
-license for code and a data/documentation license for archived results.
+This repository is released under the MIT License. See LICENSE for details.
 
